@@ -1,3 +1,7 @@
-.icone{
-    
+.hero{
+    background-color: black;
+}
+
+body{
+    overflow-x: hidden;
 }
