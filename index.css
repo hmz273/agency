@@ -5,3 +5,10 @@
 body{
     overflow-x: hidden;
 }
+
+
+
+.counter{
+    background-image: url("./pomp.jpeg");
+    opacity: 0.5;
+}
