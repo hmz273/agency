@@ -9,6 +9,104 @@ body{
 
 
 .counter{
-    background-image: url("./pomp.jpeg");
-    opacity: 0.5;
+    background-image: url("./background1.jpg");
+    /* opacity: 0.5; */
 }
+
+.shadows:hover{
+    box-shadow: 7px 7px 5px rgb(153, 29, 29);
+    /* background-color: aqua; */
+}
+
+/************* PAYMENT PLANS *************/
+div.PaymentPlans{
+    background-color: black;
+    display:block;
+    height:140vh;
+    padding-top: 50px;
+    margin:0 auto;
+}
+div.PaymentPlansContainer{
+    background-color: white;
+    width:30%;
+    height:50px;
+    align-content: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    
+}
+div.PaymentPlansContainer h5{
+    color:#e03714;
+    /* text-align: center;   */
+    /* font-size: larger; */
+    /* font-weight: 600; */
+    padding:50px;
+}
+.GrayLine{
+    background-color:gray;
+    width:2px;
+    height:50px;
+    margin:20px;
+    margin-left:0;
+}
+.Plans{
+    width: 60%;
+    height:max-content;
+    margin:0 auto;
+    display: flex;
+    padding-top: 100px;
+    align-content:center;
+    text-align: center;
+}
+.Plans p{
+    color:black;
+}
+.Plan1, .Plan2{
+    height: max-content;
+    width:80%;
+    background-color: white;
+    color:black;
+    align-items: center;
+    align-content: center;
+    padding:20px;
+    margin:0 auto;
+    margin:0 30px;
+    line-height: 30px;
+    font-size: 15px;
+    /* border-radius: 50px; */
+}
+.Plan1 .OrangeText, .Plan2 .OrangeText{
+    font-size:45px ;
+    font-weight: 600;
+    line-height: 52px;
+    color: #e03714;
+}
+.Plans   input[type=button]{
+    font-size:17px;
+    background-color: #e03714;
+    width:50%;
+    align-items: center;
+    border-style: none;
+    height:40px;
+    margin:10px;
+    color: #fff;
+    /* border-radius: 50px; */
+    /* transition: all 0.3s ease 0s; */
+}
+.Price{
+    font-size: 30px;
+}
+/* .Plans   input[type=button]:hover{
+    font-size:19px;
+    background-color: white;
+    color:#e03714;
+    width:50%;
+    align-items: center;
+    border-style: none;
+    height:40px;
+    margin:10px;
+    border:solid 2px #e03714;
+} */
